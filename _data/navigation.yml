@@ -1,9 +1,9 @@
 main:
-  - title: "About"
-    url: /about/
-  - title: "Research"
-    url: /research/
+  - title: "About"    # if project site
+    url: "{{ site.baseurl }}/about/"
   - title: "CV"
-    url: /cv/
+    url: "{{ site.baseurl }}/cv/"
+  - title: "Research"
+    url: "{{ site.baseurl }}/research/"
   - title: "Contact"
-    url: /contact/
+    url: "{{ site.baseurl }}/contact/"
