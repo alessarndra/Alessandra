@@ -1,0 +1,38 @@
+/* Typography */
+body {
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 16.5px;
+}
+h1, h2, h3 {
+  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+}
+
+/* Colour tweaks (keep Minimal Mistakes' "aqua" skin but nudge accents) */
+a, .page__content a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0);
+  transition: border-color .2s ease, color .2s ease;
+}
+a:hover, .page__content a:hover { border-color: currentColor; }
+
+.site-title, .page__title { letter-spacing: 0.2px; }
+
+/* Card-ish panels for sections */
+.mm-card {
+  padding: 1rem 1.25rem;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,.06);
+  box-shadow: 0 10px 24px rgba(0,0,0,.06);
+  background: #fff; /* looks great in light skins; in dark skins MM handles background */
+}
+
+/* Subtle callouts */
+.callout {
+  padding: .9rem 1rem;
+  border-left: 4px solid #1fb6ff;
+  background: rgba(31,182,255,.08);
+  border-radius: 10px;
+}
+
+/* Nicer lists */
+.page__content ul li { margin-bottom: .35rem; }
