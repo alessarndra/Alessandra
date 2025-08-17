@@ -3,16 +3,6 @@ main:
     url: /about/
   - title: "Research"
     url: /research/
-  - title: "Publications"
-    url: /publications/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "Awards"
-    url: /awards/
-  - title: "Service"
-    url: /service/
-  - title: "Projects"
-    url: /projects/
   - title: "CV"
     url: /cv/
   - title: "Contact"
