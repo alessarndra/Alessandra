@@ -1,24 +1,27 @@
+# --- basics ---
 title: "Alessandra Learmount — PhD"
 name: "Alessandra Learmount"
-description: "About, CV, research, and contact."
-url: "https://alessarndra.github.io"   # or your custom domain later
-baseurl: ""                               # keep "" if this repo is YOUR-USERNAME.github.io
+description: "About, CV, projects, and contact."
+url: "https://alessarndra.github.io"   # or custom domain later
+baseurl: ""                               # "" for user site; "/REPO-NAME" for project site
 
+# --- theme & look ---
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "aqua"   # nice colour; try "air", "contrast", or "dark" too
-logo: "/assets/images/portrait.jpg"
+minimal_mistakes_skin: "aqua"   # clean, bright, professional. Try "air" or "contrast" if you prefer.
 
-# Nice defaults for clean, pro pages
+logo: "/assets/images/portrait.jpg"   # shows in header
+
+# --- defaults so the sidebar profile appears on pages by default ---
 defaults:
   - scope: { path: "" }
     values:
       layout: single
-      author_profile: true
+      author_profile: true        # <- turns on the sidebar profile
       toc: true
       toc_sticky: true
       classes: wide
 
-# Sidebar profile
+# --- sidebar profile content ---
 author:
   name: "Alessandra Learmount"
   avatar: "/assets/images/portrait.jpg"
@@ -27,10 +30,16 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:al2122@cam.ac.uk"
+      url: "mailto:YOUR-EMAIL"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://uk.linkedin.com/in/alessandralearmount"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/alessarndra"
 
 plugins:
   - jekyll-feed
@@ -41,4 +50,6 @@ plugins:
   - jekyll-include-cache
 
 og_image: "/assets/images/og-image.jpg"
+
+# (optional) exclude housekeeping files from build
 exclude: [README.md, node_modules, vendor]
