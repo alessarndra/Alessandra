@@ -1,0 +1,51 @@
+title: "Alessandra Learmount"
+name: "Alessandra"
+description: "Research, academic background, awards, and contact"
+url: [edit]
+baseurl: ""
+
+# Jekyll theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark"
+logo: [edit]
+
+paginate: 5
+paginate_path: /blog/page:num/
+
+author:
+  name: "Alessandra"
+  avatar: "/assets/images/portrait.jpg"
+  bio: "PhD candidate researching sweet proteins, sensory science, and food systems."
+  location: "University of Cambridge"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:al2122@cam.ac.uk"
+collections:
+  posts:
+    output: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-include-cache
+
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
+      classes: wide
+
+github_username: "alessarndra"
+og_image: "/assets/images/og-image.jpg"
+
+exclude:
+  - README.md
+  - node_modules
+  - vendor
