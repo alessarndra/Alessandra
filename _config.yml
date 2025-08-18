@@ -1,8 +1,40 @@
 # --- basics ---
 title: "Alessandra Learmount — PhD"
+description: "Personal site"
 url: "https://alessarndra.github.io"   # or custom domain later
 baseurl: "/Alessandra"                               # "" for user site; "/REPO-NAME" for project site
 
+
+# Use ONE theme only: Minimal Mistakes via remote_theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# REMOVE any line like: theme: jekyll-theme-primer
+
+# Minimal Mistakes basic config (optional but tidy)
+minimal_mistakes_skin: "default"
+locale: "en-GB"
+
+# Expose the _pages directory as a collection so Jekyll outputs it
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Make sure GitHub Pages loads the approved plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Navigation lives in _data/navigation.yml (see below)
 
 collections:
   pages:
@@ -21,10 +53,6 @@ navigation:
       url: /projects/
     - title: "Contact"
       url: /contact/
-      
-# --- theme & look ---
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "blue"   # clean, bright, professional. Try "air" or "contrast" if you prefer.
 
 logo: "/assets/images/portrait.jpg"   # shows in header
 
@@ -57,14 +85,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/alessarndra"
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jemoji
-  - jekyll-include-cache
 
 og_image: "/assets/images/og-image.jpg"
 
