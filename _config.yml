@@ -5,6 +5,12 @@ description: "About, CV, projects, and contact."
 url: "https://alessarndra.github.io"   # or custom domain later
 baseurl: "/Alessandra"                               # "" for user site; "/REPO-NAME" for project site
 
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
 # --- theme & look ---
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "blue"   # clean, bright, professional. Try "air" or "contrast" if you prefer.
