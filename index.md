@@ -5,14 +5,14 @@ permalink: /
 header:
   overlay_color: "#0f172a"
   overlay_filter: "0.35"
-  overlay_image: /assets/images/og-image.jpg
+  overlay_image: "{{ '/assets/images/og-image.jpg' | relative_url }}"
   actions:
     - label: "About me"
-      url: /about
+      url: "{{ '/about/' | relative_url }}"
     - label: "CV"
-      url: /cv
+      url: "{{ '/cv/' | relative_url }}"
     - label: "Research"
-      url: /research
+      url: "{{ '/research/' | relative_url }}"
 excerpt: "Cambridge PhD (incoming) — Cambridge graduate in Plant Sciences (1st class)."
 ---
 
@@ -27,4 +27,4 @@ excerpt: "Cambridge PhD (incoming) — Cambridge graduate in Plant Sciences (1st
   </ul>
 </div>
 
-> Quick navigation: [About](/about/) · [CV](/cv/) · [Projects](/projects/) · [Contact](/contact/)
+> Quick navigation: [About]({{ '/about/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }}) · [Projects]({{ '/projects/' | relative_url }}) · [Contact]({{ '/contact/' | relative_url }})
