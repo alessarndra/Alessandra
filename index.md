@@ -11,8 +11,8 @@ header:
       url: /about/
     - label: "CV"
       url: /cv/
-    - label: "Projects"
-      url: /projects/
+    - label: "Research"
+      url: /research/
 excerpt: "Cambridge PhD (incoming) — Cambridge graduate in Plant Sciences (1st class)."
 ---
 
