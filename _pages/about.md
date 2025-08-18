@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: splash
+layout: single
 permalink: /about/
 header:
   overlay_color: "#0f172a"
