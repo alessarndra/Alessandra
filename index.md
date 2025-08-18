@@ -8,11 +8,11 @@ header:
   overlay_image: /assets/images/og-image.jpg
   actions:
     - label: "About me"
-      url: /about/
+      url: /about
     - label: "CV"
-      url: /cv/
+      url: /cv
     - label: "Research"
-      url: /research/
+      url: /research
 excerpt: "Cambridge PhD (incoming) — Cambridge graduate in Plant Sciences (1st class)."
 ---
 
