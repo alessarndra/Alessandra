@@ -7,7 +7,7 @@ baseurl: "/Alessandra"                               # "" for user site; "/REPO-
 
 # --- theme & look ---
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "green"   # clean, bright, professional. Try "air" or "contrast" if you prefer.
+minimal_mistakes_skin: "blue"   # clean, bright, professional. Try "air" or "contrast" if you prefer.
 
 logo: "/assets/images/portrait.jpg"   # shows in header
 
