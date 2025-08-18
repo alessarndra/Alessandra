@@ -17,11 +17,10 @@ excerpt: "Cambridge PhD (incoming) — Cambridge graduate in Plant Sciences (1st
 ---
 
 <div class="mm-card">
-  <p>Welcome — I’m <strong>Alessandra Learmount</strong>, an incoming PhD candidate (Pathology) at the University of Cambridge. My interests sit at the intersection of <em>sweet proteins</em>, <em>sensory science</em>, and <em>food policy</em> — aiming to reduce sugar without losing pleasure or safety.</p>
-
+  <p>Welcome — I’m <strong>Alessandra Learmount</strong>, an incoming PhD candidate (Pathology) at the University of Cambridge. My interests sit at the intersection of <em>sweet proteins</em>, <em>sensory science</em>, and <em>food policy</em>.</p>
   <ul>
     <li><strong>About:</strong> academic background, awards, experiences</li>
-    <li><strong>CV:</strong> full downloadable resume</li>
+    <li><strong>CV:</strong> full downloadable résumé</li>
     <li><strong>Projects:</strong> ongoing and past research highlights</li>
     <li><strong>Contact:</strong> how to reach me</li>
   </ul>
