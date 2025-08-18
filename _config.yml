@@ -2,7 +2,7 @@
 title: "Alessandra Learmount — PhD"
 name: "Alessandra Learmount"
 description: "About, CV, projects, and contact."
-url: "https://alessarndra.github.io"   # or custom domain later
+url: "https://alessandra.github.io"   # or custom domain later
 baseurl: ""                               # "" for user site; "/REPO-NAME" for project site
 
 # --- theme & look ---
