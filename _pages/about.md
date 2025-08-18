@@ -1,14 +1,14 @@
 ---
 title: "About"
 layout: splash
-permalink: /about
+permalink: /about.md
 header:
   overlay_color: "#0f172a"
   overlay_filter: "0.35"
   overlay_image: /assets/images/og-image.jpg
   actions:
     - label: "View my CV"
-      url: /cv
+      url: /cvmd
 excerpt: "Incoming PhD candidate in Pathology at Cambridge; recent graduate from the Natural Sciences Tripos at the University of Cambridge, specialising in Plant Sciences and ranking 1st in my cohort."
 ---
 
