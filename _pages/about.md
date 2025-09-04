@@ -4,39 +4,39 @@ title: About
 permalink: /about/
 ---
 
-# About me
+<div class="container">
+  <h2>About me</h2>
+  <p class="lead">I’m pivoting from plant photoprotection to the microbial ecology of soils — building clean analyses and clear stories, from wet lab to code to communication.</p>
 
-Curious about how organisms adapt to fluctuating environments, I’m pivoting from plant photoprotection to the **microbial ecology of soils**. I enjoy building clean analyses and clear stories — from wet lab to code to communication.
+  <div class="grid">
+    <div class="span-7 card">
+      <h3>Path to the PhD</h3>
+      <p>Incoming PhD student in the <strong>Enright Group (Pathology, University of Cambridge)</strong>, focusing on the soil microbiome with <strong>Oxford Nanopore</strong>. Previously, I studied Natural Sciences (Plant Sciences), taking modules across microbiology, ecology, zoology and plant sciences.</p>
+      <p>My final-year project (Kromdijk Group) explored <em>PsbS</em> and non-photochemical quenching in early-diverging chlorophytes under fluctuating light.</p>
+      <h3>Beyond the lab</h3>
+      <p>Collaborating with <strong>Kiseki</strong>, a start-up using AI to design novel proteins for flavour. I mentor through STEM Smart and support Cambridge applicants on open days and interviews.</p>
+      <p class="chips">
+        <span class="pill">Cambridge, UK</span>
+        <span class="pill">Long-read sequencing</span>
+        <span class="pill">R · Python</span>
+      </p>
+    </div>
 
-## Path to the PhD
-I’m an incoming PhD student in the **Department of Pathology (Enright Group), University of Cambridge**, focusing on the soil microbiome using **Oxford Nanopore** long-read sequencing.  
-Previously, I studied **Natural Sciences (Plant Sciences)** at Cambridge, taking modules across microbiology, ecology, zoology and plant biology.
-
-My final-year research project in the **Kromdijk Group** explored *photoprotective mechanisms* — particularly the **PsbS** protein and NPQ dynamics — in early-diverging chlorophyte species.
-
-## Beyond the lab
-I’m collaborating with **Kiseki**, a start-up using AI to design novel proteins for flavour. I also care about teaching and widening participation, mentoring school students via **STEM Smart** and supporting applicants during Cambridge open days and interviews.
-
-<div class="grid">
-  <div class="item">
-    <h3>Quick facts</h3>
-    <p class="chips">
-      <span class="pill">Cambridge, UK</span>
-      <span class="pill">Soil microbiome</span>
-      <span class="pill">Long-read sequencing</span>
-      <span class="pill">R · Python</span>
-    </p>
-  </div>
-  <div class="item">
-    <h3>Methods</h3>
-    <p class="chips">
-      <span class="pill">R</span><span class="pill">Python</span><span class="pill">FluorCam</span>
-      <span class="pill">qPCR</span><span class="pill">AlphaFold 3</span><span class="pill">ImageJ</span>
-      <span class="pill">Experimental design</span>
-    </p>
-  </div>
-  <div class="item">
-    <h3>What I’m exploring next</h3>
-    Benchmarking nanopore pipelines; linking microbiome shifts to soil function; building open, reusable analysis templates.
+    <div class="span-5">
+      <div class="gallery">
+        <figure>
+          <img src="{{ '/assets/img/borneo.jpg' | relative_url }}" alt="Fieldwork in Borneo" loading="lazy">
+          <figcaption>Canopy surveys — Borneo (Danum Valley)</figcaption>
+        </figure>
+        <figure>
+          <img src="{{ '/assets/img/kalahari.jpg' | relative_url }}" alt="Kalahari field site" loading="lazy">
+          <figcaption>Behavioural ecology — Kalahari</figcaption>
+        </figure>
+        <figure>
+          <img src="{{ '/assets/img/lab.jpg' | relative_url }}" alt="Lab research" loading="lazy">
+          <figcaption>Lab &amp; fluorescence assays</figcaption>
+        </figure>
+      </div>
+    </div>
   </div>
 </div>
