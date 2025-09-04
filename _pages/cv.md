@@ -1,95 +1,81 @@
 ---
-title: "Curriculum Vitae"
+layout: default
+title: CV
 permalink: /cv/
-layout: single
-author_profile: true
-toc: true
-toc_sticky: true
-classes: wide
 ---
 
-# Alessandra Learmount
+# CV & academic record
+Highlights below; full CV available on request.
 
-> Final-year undergraduate in Natural Sciences at the University of Cambridge, on track to begin a PhD in September 2025. Experience supporting English-language learners, mentoring students for GCSE/A-level, and assisting with university applications. Familiar with Japanese culture and basic language; passionate about education and tailoring teaching to diverse learners. :contentReference[oaicite:0]{index=0}
+<div class="cv-cols">
+  <div class="timeline">
+    <div class="item">
+      <h3>University of Cambridge — Natural Sciences (Biological)</h3>
+      <p class="meta">BA · Plant Sciences focus · Ranked 1st in cohort</p>
+      <p>Final-year project on photoprotection (PsbS) in chlorophytes; modules across microbiology, ecology, zoology, and plant sciences.</p>
+    </div>
+    <div class="item">
+      <h3>Incoming PhD — Pathology, University of Cambridge</h3>
+      <p class="meta">Enright Group · from Sept 2025</p>
+      <p>Soil microbiome; Oxford Nanopore; experimental design.</p>
+    </div>
+    <div class="item">
+      <h3>Hills Road Sixth Form College — A levels</h3>
+      <p class="meta">Maths (A), Biology (A), Chemistry (A), Economics (A), EPQ (A*)</p>
+    </div>
+  </div>
 
-**Location:** Cambridge, United Kingdom  
-**Phone:** +44 (0)7847 587562  
-**Email:** al2122@cam.ac.uk · alessandra@learmount.com  
-**LinkedIn:** https://linkedin.com/in/alessandralearmount  :contentReference[oaicite:1]{index=1}
+  <div class="timeline">
+    <div class="item">
+      <h3>Awards</h3>
+      <ul>
+        <li><strong>T.B. Wood Prize</strong> — best overall performance in Plant Sciences (2025)</li>
+        <li><strong>Winifred G. H. Pollard Memorial Prize</strong> — Natural Sciences (2025)</li>
+        <li><strong>Honorary Scholarship</strong> — Gonville & Caius College (2025)</li>
+        <li><strong>Frank Smart Prize in Botany</strong> (2024 & 2025)</li>
+        <li><strong>Senior Scholarship</strong> — Gonville & Caius (2024)</li>
+        <li>UK Chemistry Olympiad — Gold (2022)</li>
+        <li>Senior Mathematical Challenge — Silver (2021); British Biology Olympiad — Silver (2021)</li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3>Teaching & outreach</h3>
+      <ul>
+        <li>Summer School Fellow — CL Global Academy (mentoring, lectures, tours, 2024)</li>
+        <li>STEM Smart mentor — University of Cambridge (2024)</li>
+        <li>Interview helper &amp; Open Day staff — Gonville &amp; Caius (2023)</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
----
+<div class="cv-cols" style="margin-top:16px">
+  <div class="timeline">
+    <div class="item">
+      <h3>Academic & field experience</h3>
+      <ul>
+        <li>IEMA-accredited Green Impact environmental auditing (2024)</li>
+        <li>Kalahari Meerkat Project — behavioural ecology (South Africa, 2023)</li>
+        <li>Danum Valley Field Centre — tropical forest ecology (Borneo)</li>
+        <li>Entrepreneurship — founded a Japanese stationery micro-business (Daijikun)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="item">
+      <h3>Skills</h3>
+      <p class="chips">
+        <span class="pill">R</span><span class="pill">Python</span><span class="pill">FluorCam</span>
+        <span class="pill">qPCR</span><span class="pill">AlphaFold 3</span><span class="pill">ImageJ</span>
+        <span class="pill">Experimental design</span><span class="pill">Field methods</span>
+        <span class="pill">Science communication</span>
+      </p>
+    </div>
+  </div>
+</div>
 
-## Teaching Skills & Experiences
-
-**Summer School Fellow — CL Global Academy**  
-*July–August 2024*  
-- Mentored international students (13–30) in Cambridge; first point of contact for questions/concerns.  
-- Delivered a lecture on studying at Cambridge and the application process.  
-- Led tours (Cambridge & London), coordinated academic sessions, organised extracurriculars.  
-- Built learners’ confidence in spoken English via 1:1 and group conversations.  :contentReference[oaicite:2]{index=2}
-
-**Mentor — StemSmart, University of Cambridge**  
-*January–May 2024*  
-- Weekly online academic preparation for a cohort of ~15 A-level students applying to Oxbridge.  
-- Supported personal statements, university choices, admissions tests, revision strategies, and interview practice.  :contentReference[oaicite:3]{index=3}
-
-**Interview Helper — Gonville & Caius College, Cambridge**  
-*December 2023*  
-- Reassured applicants, answered last-minute queries, and helped with pre-interview logistics.  
-- Escorted candidates to interviews; shared tailored insights on the Cambridge process.  :contentReference[oaicite:4]{index=4}
-
-**University Open Day Staff — University of Cambridge**  
-*September–October 2023*  
-- Campus tours and Q&A for prospective applicants at Gonville & Caius.  
-- Shared personal experiences and tailored advice on applying and choosing a college.  :contentReference[oaicite:5]{index=5}
-
----
-
-## Academic Skills & Experience
-
-**Green Impact Environmental Auditing (IEMA-accredited)**  
-*May 2024*  
-- Completed training in evaluating green impact and sustainability practices.  
-- Conducted structured audits; provided clear, constructive feedback.  
-- Practised translating technical criteria into actionable steps and supporting behaviour change in diverse departments.  :contentReference[oaicite:6]{index=6}
-
-**Volunteer — Kalahari Meerkat Project, KRC (South Africa)**  
-*July–September 2023*  
-- Independent behavioural-ecology project requiring initiative and organisation.  
-- Cross-cultural collaboration within a multilingual, multicultural team.  
-- Presented complex biological concepts clearly; daily data collection and animal care strengthened discipline for structured lesson planning.  :contentReference[oaicite:7]{index=7}
-
-**Entrepreneur & Business Owner — Daijikun**  
-*April 2020–January 2022*  
-- Founded a Japanese stationery micro-business; imported from Japan to the UK.  
-- Built a simple e-commerce site; product photography and descriptions introducing Japanese products to a UK audience.  
-- Wrote a blog on Japanese culture and recent scientific developments.  :contentReference[oaicite:8]{index=8}
-
----
-
-## Education
-
-**University of Cambridge — BA (Natural Sciences, Biological)**  
-*September 2022–present*  :contentReference[oaicite:9]{index=9}
-
-**Hills Road Sixth Form College — A levels**  
-*September 2020–August 2022*  
-- **A*A*A*A*A*** in Biology, Chemistry, Mathematics, Economics, and EPQ.  :contentReference[oaicite:10]{index=10}
-
-**Stephen Perse Foundation — GCSEs**  
-*September 2015–July 2020*  
-- Grade 9s in ten GCSEs.  :contentReference[oaicite:11]{index=11}
-
----
-
-## Awards
-
-- **Senior Scholarship**, Gonville & Caius (2024)  
-- **Frank Smart Prize in Botany** (2024)  
-- **UK Chemistry Olympiad — Gold** (2022)  
-- **Senior Mathematical Challenge — Silver** (2021)  
-- **British Biology Olympiad — Silver** (2021)  :contentReference[oaicite:12]{index=12}
-
----
-
-**References available on request.**  :contentReference[oaicite:13]{index=13}
+<div class="item" style="margin-top:20px">
+  <h3>Experience & interests</h3>
+  Teaching &amp; outreach (tutoring for UK admissions, ESAT, interviews, reading academic papers); STEM Smart mentoring; widening participation.  
+  Methods: R, AlphaFold 3, FluorCam, experimental design.
+</div>
