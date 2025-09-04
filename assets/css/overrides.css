@@ -1,48 +1,27 @@
-/* Typography */
-body {
-  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-  font-size: 16.5px;
+/* --- Site look & feel overrides --- */
+:root{
+  --bg:#0b0d10; --panel:#12161b; --text:#e7edf5; --muted:#a8b3c7;
+  --brand:#0ea5e9; --brand2:#7c3aed; --chip:rgba(14,165,233,.12);
+  --border:rgba(255,255,255,.08); --accent:#1f2937; --shadow:0 10px 30px rgba(0,0,0,.25);
 }
-h1, h2, h3 {
-  font-family: "Merriweather", Georgia, "Times New Roman", serif;
-}
-
-/* Colour tweaks (keep Minimal Mistakes' "aqua" skin but nudge accents) */
-a, .page__content a {
-  text-decoration: none;
-  border-bottom: 1px solid rgba(0,0,0,0);
-  transition: border-color .2s ease, color .2s ease;
-}
-a:hover, .page__content a:hover { border-color: currentColor; }
-
-.site-title, .page__title { letter-spacing: 0.2px; }
-
-/* Card-ish panels for sections */
-.mm-card {
-  padding: 1rem 1.25rem;
-  border-radius: 14px;
-  border: 1px solid rgba(0,0,0,.06);
-  box-shadow: 0 10px 24px rgba(0,0,0,.06);
-  background: #fff; /* looks great in light skins; in dark skins MM handles background */
-}
-
-/* Subtle callouts */
-.callout {
-  padding: .9rem 1rem;
-  border-left: 4px solid #1fb6ff;
-  background: rgba(31,182,255,.08);
-  border-radius: 10px;
-}
-
-/* Nicer lists */
-.page__content ul li { margin-bottom: .35rem; }
-
-/* Map containers */
-.leaflet-map {
-  height: 380px;
-  border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid rgba(0,0,0,.08);
-  box-shadow: 0 10px 24px rgba(0,0,0,.06);
-  margin: 0 0 1rem 0;
+body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+a{color:var(--brand)} a:hover{opacity:.92}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+.pill{display:inline-flex;align-items:center;gap:.5rem;background:var(--chip);padding:.38rem .7rem;border-radius:999px;border:1px solid var(--border);color:var(--brand)}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);padding:16px}
+.hero{padding:64px 0 32px}
+h1{font-family:"Playfair Display",serif;font-weight:700;letter-spacing:.2px;margin:0 0 12px;font-size:clamp(36px,6vw,62px);line-height:1.05}
+h2{font-family:"Playfair Display",serif;font-size:clamp(28px,3.2vw,38px);margin:0 0 12px}
+.subtitle,.lead,.meta{color:var(--muted)}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;border:none;padding:12px 16px;border-radius:10px;font-weight:600;box-shadow:var(--shadow);cursor:pointer}
+.btn.sec{background:transparent;border:1px solid var(--border);color:var(--text)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:.4rem 0}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}
+.cv-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.cards-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.cards-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.item{border:1px solid var(--border);border-radius:14px;background:var(--panel);padding:16px}
+.contact{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+@media (max-width: 960px){
+  .grid,.cards-3,.cards-2,.cv-cols,.contact{grid-template-columns:1fr}
 }
