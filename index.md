@@ -18,11 +18,11 @@ permalink: /
       <span class="pill">R · Python</span>
       <span class="pill">Experimental design</span>
     </p>
-    <p>
-      <a class="btn" href="{{ '/research/' | relative_url }}">See my research</a>
-      <a class="btn sec" href="{{ '/cv/' | relative_url }}">View my CV</a>
-      <a class="btn" href="mailto:al2122@cam.ac.uk">Email me</a>
-    </p>
+<p>
+  <a class="btn" href="{{ '/research/' | relative_url }}">See my research</a>
+  <a class="btn" href="{{ '/cv/' | relative_url }}">View my CV</a>
+  <a class="btn sec" href="{{ '/contact/' | relative_url }}">Contact</a>
+</p>
     <p class="pill" style="margin-top:12px">Currently: working with <strong>Kiseki</strong> on AI-designed flavour proteins</p>
   </div>
   <aside class="span-5">
