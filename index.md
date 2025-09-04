@@ -1,29 +1,38 @@
 ---
-title: "Home"
-layout: splash
+layout: default
+title: Alessandra Learmount — Home
 permalink: /
-header:
-  overlay_color: "#0f172a"
-  overlay_filter: "0.35"
-  overlay_image: "{{ '/assets/images/og-image.jpg' | relative_url }}"
-  actions:
-    - label: "About me"
-      url: "{{ '/about/' | relative_url }}"
-    - label: "CV"
-      url: "{{ '/cv/' | relative_url }}"
-    - label: "Research"
-      url: "{{ '/research/' | relative_url }}"
-excerpt: "Cambridge PhD (incoming) — Cambridge graduate in Plant Sciences (1st class)."
 ---
 
-<div class="mm-card">
-  <p>Welcome — I’m <strong>Alessandra Learmount</strong>, an incoming PhD candidate (Pathology) at the University of Cambridge. My interests sit at the intersection of <em>sweet proteins</em>, <em>sensory science</em>, and <em>food policy</em>.</p>
-  <ul>
-    <li><strong>About:</strong> academic background, awards, experiences</li>
-    <li><strong>CV:</strong> full downloadable résumé</li>
-    <li><strong>Projects:</strong> ongoing and past research highlights</li>
-    <li><strong>Contact:</strong> how to reach me</li>
-  </ul>
-</div>
+<div class="hero container">
+  <span class="pill">Incoming PhD · University of Cambridge · Pathology (Enright Group)</span>
+  <h1>Microbiomes, molecules &amp; methods — building tools to read the living world</h1>
 
-> Quick navigation: [About]({{ '/about/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }}) · [Projects]({{ '/projects/' | relative_url }}) · [Contact]({{ '/contact/' | relative_url }})
+  <p class="subtitle">
+    I’m Alessandra, an incoming PhD student in the Department of Pathology at the University of Cambridge.
+    My PhD will explore the <strong>soil microbiome</strong> using Oxford Nanopore sequencing.
+    I previously studied Natural Sciences (Plant Sciences) at Cambridge and investigated
+    <strong>photoprotection &amp; PsbS</strong> in early-diverging chlorophytes.
+  </p>
+
+  <p class="chips">
+    <span class="pill">Soil microbiome</span>
+    <span class="pill">Oxford Nanopore</span>
+    <span class="pill">R · Python</span>
+    <span class="pill">Experimental design</span>
+  </p>
+
+  <p style="margin-top:10px">
+    <a class="btn" href="{{ '/research/' | relative_url }}">See my research</a>
+    <a class="btn sec" href="{{ '/cv/' | relative_url }}">View my CV</a>
+  </p>
+
+  <p class="pill" style="margin-top:12px">Currently: working with <strong>Kiseki</strong> on AI-designed flavour proteins</p>
+
+  <div class="card highlight">
+    <h3>Highlights</h3>
+    <ul>
+      <li>Plant Sciences (ranked 1st in cohort), University of Cambridge</li>
+      <li>Frank Smart Prize · Senior Scholarship · UKChO Gold</li>
+      <li>Fieldwork: Borneo tropical forests; Kalahari behavioural ecology</li>
+    </u
