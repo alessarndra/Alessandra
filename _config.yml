@@ -4,3 +4,22 @@ header_pages:
   - _pages/research.md
   - _pages/cv.md
   - _pages/contact.md
+
+# --- make _pages build as real pages ---
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
+defaults:
+  - scope:
+      path: ""        # whole site
+      type: pages     # our collection above
+    values:
+      layout: default
+
+# If this repo is your user site (username.github.io):
+baseurl: ""           # leave empty
+
+# If this is a project site (username.github.io/repo-name):
+# baseurl: "/repo-name"
