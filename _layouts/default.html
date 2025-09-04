@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/overrides.css' | relative_url }}">
+  <!-- Leaflet map + Chart.js (for research map & chart) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <!-- Top nav -->
+  <header class="site-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">🔬 Alessandra Learmount</a>
+      <nav class="links" id="navLinks">
+        <a href="{{ '/about/'    | relative_url }}">About</a>
+        <a href="{{ '/research/' | relative_url }}">Research</a>
+        <a href="{{ '/cv/'       | relative_url }}">CV</a>
+        <a href="{{ '/contact/'  | relative_url }}">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme" class="theme" aria-label="Toggle theme">🌗</button>
+        <button id="menu"  class="menu"  aria-label="Toggle menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="chips">
+        <span class="pill">© <span id="y"></span> Alessandra Learmount</span>
+        <a class="pill" href="mailto:al2122@cam.ac.uk">Email me</a>
+        <a class="pill" href="https://linkedin.com/in/alessandralearmount" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Theme toggle
+    const root=document.documentElement, themeBtn=document.getElementById('theme');
+    function setTheme(t){root.classList.toggle('light',t==='light');localStorage.setItem('theme',t);themeBtn.textContent=t==='light'?'🌒':'🌗';}
+    setTheme(localStorage.getItem('theme')||'light');
+    themeBtn.addEventListener('click',()=>setTheme(root.classList.contains('light')?'dark':'light'));
+
+    // Mobile menu
+    const menuBtn=document.getElementById('menu'), nav=document.getElementById('navLinks');
+    menuBtn.addEventListener('click',()=>nav.classList.toggle('open'));
+
+    // Footer year
+    document.getElementById('y').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
